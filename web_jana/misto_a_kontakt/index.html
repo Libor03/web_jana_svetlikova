@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url("../fotky/uvod.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px;
+    font-size: 35px;
+    color: white;
+  }
+  /*nadpisy*/
+  h1 {
+  font-family: verdana;
+  font-size: 150%;
+
+}
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 20%;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #nav {
+font-size: 120%;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+  }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
+</head>
+<header>
+  <h1>Kontakty</h1>
+  <h3></h3>
+</header>
+<body>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="jumbotron">
+      <div class="col-sm-3">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="col-sm-3">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="col-sm-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="col-sm-3">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+  </div>
+</div>
+  
+  
+<section>
+  <nav>
+    <ul>
+      <li id="nav"><a href="">úvod</a></li>
+      <li id="nav"><a href="#">vzdělání</a></li>
+      <li id="nav"><a href="../misto_a_kontakt/index.html">kontakt</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+</body>
+</html>

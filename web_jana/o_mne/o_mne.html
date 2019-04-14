@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  #head {
+    
+    text-align: right;
+    padding-right: 100px;
+    font-family: Arial;
+    font-size: 150%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: auto;
+    background-image: url("../fotky/bubny.jpg");
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* Style the header */
+  header {
+    width: auto;
+    background-image: url("../fotky/uvod.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px;
+    font-size: 35px;
+    color: white;
+  }
+  /*nadpisy*/
+  h1, h3 {
+  font-family: verdana;
+  font-size: 150%;
+
+}
+
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 10%;
+    background: #ccc;
+    padding: 20px;
+    
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+a{
+  color: black;
+}
+  #a{
+     float: top;
+     height: 60px;  
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 140%;  
+    background-color: #CDAF95;  
+  }
+  #nav {
+    float: left;
+    width: 10%;
+    font-family: Arial;
+font-size: 120%;
+height: 310px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    
+    width: 90%;
+    background-color: #f1f1f1;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  picture{
+    background-color: #f1f1f1;
+    height: 270px;
+    float: right;
+    padding-left: 20px; 
+  
+  }
+  blockquote{
+    padding-top: 200px;
+  }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
+  <section id="head">
+  <p><a href=""></a><img src="../fotky/youtube.png" alt="youtube">
+  <a href=""></a><img src="../fotky/facebook.png" alt="facebook"></p>
+  </section>
+</head>
+
+<header>
+  <h1>Muzikoterapie</h1>
+  <h3>Jana Světlíková</h3>
+</header>
+<body>
+
+
+<section id="a">
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="#"><p>Individuální muzikoterapie</p></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#"><p>Muzikoterapeutická relaxace pro skupiny</p></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#"> <p>Muzikoterapeutický koncert</p></a>
+      </div>        
+    </div>
+  </div>
+
+</section>
+  
+    
+<section class="flex-container">
+  <nav id="nav">
+    <ul>
+      <li><a href="../uvod_a/index.html">Domů</a></li>
+      <li><a href="#">O mně</a></li>
+      <li><a href="#">Vzdělání</a></li>
+       <li><a href="">Muzkoterapeutické nástroje</a></li>
+      <li><a href="../misto_a_kontakt/index.html">Kontakt</a></li>
+     
+   
+    
+    </ul>
+  </nav>
+      
+  <article>
+    <picture><img src="../fotky/o_mne.jpg" alt=""></picture>
+    <h3>O mně</h3>
+   <p> Mou velkou vášní byl tanec, pohyb, vyjádření hudby a zvuku. Od tance mě dál vedly stezky života ke
+    speciální pedagogice, kterou jsem vystudovala na Univerzitě Palackého v Olomouci. Pracovala jsem
+    s lidmi s mentálním postižením a spatřovala jsem ve zvuku a hudbě velikou sílu, energii a možnou pro
+    všechny, bez ohledu na hloubku postižení. Ubírala jsem se cestou muzikoterapie. Nejprve jako
+    nástrojem pro druhé, ale postupně se stávala součástí mě samotné, celého mého života. Po různých
+    seminářích jsem zakotvila u celostní muzikoterapie. Vystudovala jsem Celostní muzikoterapii 1 a 2 –
+    metodu PaedDr. Lubomíra Holzera na Filozofické fakultě Univerzity Palackého v Olomouci. Působím
+    především jako speciální pedagožka a muzikoterapeutka v neziskové organizaci FOKUS – Opava, z.s.,
+    kde se věnuji lidem s mentálním postižením a duševním onemocněním, zejména s psychotickým
+    onemocněním, schizofrenií. Dále také pro další organizace, pracovníky v pomáhajících profesích i pro
+    veřejnost. Pracuji individuálně i se skupinami. Nabízím muzikoterapii všem, kteří o ni mají zájem.
+
+</p>
+   
+  </article>
+
+</section>
+</section>
+
+<footer>
+  <p>Vytvořil Hrom Orbital LŠ</p>
+</footer>
+</body>
+</html>
